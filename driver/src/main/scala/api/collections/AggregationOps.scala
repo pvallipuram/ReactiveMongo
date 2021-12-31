@@ -1,28 +1,12 @@
 package reactivemongo.api.collections
 
+import reactivemongo.api.bson.collection.BSONSerializationPack
+import reactivemongo.api.bson.collection.BSONSerializationPack.Document
+import reactivemongo.api.collections.GenericQueryBuilder.logger
+
 import scala.concurrent.duration.FiniteDuration
-
-import reactivemongo.api.{
-  Collation,
-  Cursor,
-  CursorOptions,
-  CursorProducer,
-  PackSupport,
-  ReadConcern,
-  ReadPreference,
-  SerializationPack,
-  WriteConcern
-}
-
-import reactivemongo.api.commands.{
-  AggregationFramework => AggFramework,
-  CollectionCommand,
-  CommandCodecs,
-  CommandKind,
-  CommandWithPack,
-  CommandWithResult,
-  ResolvedCollectionCommand
-}
+import reactivemongo.api.{ Collation, Cursor, CursorOptions, CursorProducer, PackSupport, ReadConcern, ReadPreference, SerializationPack, WriteConcern }
+import reactivemongo.api.commands.{ CollectionCommand, CommandCodecs, CommandKind, CommandWithPack, CommandWithResult, ResolvedCollectionCommand, AggregationFramework => AggFramework }
 import reactivemongo.core.protocol.MongoWireVersion
 
 trait AggregationOps[P <: SerializationPack] {
@@ -134,7 +118,10 @@ trait AggregationOps[P <: SerializationPack] {
       import builder.{ boolean, document, elementProducer => element }
       import agg.{ command => cmd }
 
-      val pipeline = builder.array(cmd.pipeline.map(_.makePipe))
+      val seqAggregationOperators: Seq[AggregationFramework.pack.Document] = cmd.pipeline.map(_.makePipe)
+      logger.error(s"db.${agg.collection}.${agg.commandKind.name}([" + seqAggregationOperators.map(entry => BSONSerializationPack.pretty(entry.asInstanceOf[Document])).mkString(",") + "])")
+
+      val pipeline: builder.pack.Value = builder.array(cmd.pipeline.map(_.makePipe))
 
       lazy val isOut: Boolean = cmd.pipeline.lastOption.exists {
         case _: AggregationFramework.Out => true

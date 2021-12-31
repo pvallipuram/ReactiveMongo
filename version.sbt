@@ -12,7 +12,7 @@ ThisBuild / version := {
               Seq(maj, min, patch) <- Stable.unapplySeq(previousVer)
               nextPatch <- scala.util.Try(patch.toInt).map(_ + 1).toOption
             } yield {
-              s"${maj}.${min}.${nextPatch}-SNAPSHOT"
+              s"${maj}.${min}.${nextPatch}"
             }).getOrElse {
               println("Fails to determine qualified snapshot version")
               previousVer

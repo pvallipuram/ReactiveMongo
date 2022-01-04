@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReactiveMongo.iml" filepath="$PROJECT_DIR$/.idea/modules/ReactiveMongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReactiveMongo-BSON.iml" filepath="$PROJECT_DIR$/.idea/modules/ReactiveMongo-BSON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReactiveMongo-BSON-Macros.iml" filepath="$PROJECT_DIR$/.idea/modules/ReactiveMongo-BSON-Macros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReactiveMongo-JMX.iml" filepath="$PROJECT_DIR$/.idea/modules/ReactiveMongo-JMX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReactiveMongo-Root.iml" filepath="$PROJECT_DIR$/.idea/modules/ReactiveMongo-Root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReactiveMongo-Root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ReactiveMongo-Root-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReactiveMongo-Shaded.iml" filepath="$PROJECT_DIR$/.idea/modules/ReactiveMongo-Shaded.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReactiveMongo-Shaded-Native-linux-x86_64.iml" filepath="$PROJECT_DIR$/.idea/modules/ReactiveMongo-Shaded-Native-linux-x86_64.iml" group="ReactiveMongo-Shaded-Native" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReactiveMongo-Shaded-Native-osx-x86_64.iml" filepath="$PROJECT_DIR$/.idea/modules/ReactiveMongo-Shaded-Native-osx-x86_64.iml" group="ReactiveMongo-Shaded-Native" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/benchmarks.iml" filepath="$PROJECT_DIR$/.idea/modules/benchmarks.iml" />
+    </modules>
+  </component>
+</project>

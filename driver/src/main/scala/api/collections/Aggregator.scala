@@ -1,24 +1,11 @@
 package reactivemongo.api.collections
 
+import reactivemongo.api.BSONSerializationPack.Document
+import reactivemongo.api.Cursor.logger
+
 import scala.language.higherKinds
-
-import reactivemongo.api.{
-  Cursor,
-  CursorOptions,
-  CursorProducer,
-  ReadConcern,
-  ReadPreference,
-  SerializationPack
-}
-
-import reactivemongo.api.commands.{
-  CollectionCommand,
-  CommandCodecs,
-  CommandWithPack,
-  CommandWithResult,
-  ResolvedCollectionCommand,
-  WriteConcern
-}
+import reactivemongo.api.{ BSONSerializationPack, Cursor, CursorOptions, CursorProducer, ReadConcern, ReadPreference, SerializationPack }
+import reactivemongo.api.commands.{ CollectionCommand, CommandCodecs, CommandWithPack, CommandWithResult, ResolvedCollectionCommand, WriteConcern }
 import reactivemongo.core.protocol.MongoWireVersion
 
 private[collections] trait Aggregator[P <: SerializationPack with Singleton] {
@@ -109,6 +96,9 @@ private[collections] trait Aggregator[P <: SerializationPack with Singleton] {
     pack.writer[AggregateCmd[T]] { agg =>
       import builder.{ boolean, document, elementProducer => element }
       import agg.{ command => cmd }
+
+      val seqAggregationOperators = cmd.pipeline.map(_.makePipe)
+      logger.error(s"db.${agg.collection}.aggregate([" + seqAggregationOperators.map(entry => BSONSerializationPack.pretty(entry.asInstanceOf[Document])).mkString(",") + "])")
 
       val pipeline = builder.array(
         cmd.operator.makePipe,

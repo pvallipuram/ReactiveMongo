@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="benchmarks">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Xlint" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Xlint" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-target:jvm-1.8" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/silencer-plugin_2.13/1.4.1/silencer-plugin_2.13-1.4.1.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 3" modules="ReactiveMongo-Shaded,ReactiveMongo-Shaded-Native-linux-x86_64,ReactiveMongo-Shaded-Native-osx-x86_64,reactivemongo_6281" />
+    <profile name="sbt 4" modules="ReactiveMongo-Core,ReactiveMongo-Test">
+      <option name="higherKinds" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xlint" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Wmacros:after" />
+        <parameter value="-P:silencer:globalFilters=MongoDB\ 3\.0\ EOL\ reached\ by\ Feb\ 2018;Either\ is\ now\ right-biased" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/silencer-plugin_2.13.6/1.7.5/silencer-plugin_2.13.6-1.7.5.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 5" modules="ReactiveMongo,ReactiveMongo-BSON,ReactiveMongo-BSON-Macros,ReactiveMongo-JMX,ReactiveMongo-Root">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Xlint" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-target:jvm-1.8" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/silencer-plugin_2.13/1.4.1/silencer-plugin_2.13-1.4.1.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="ReactiveMongo-Shaded [file:/Users/pirasath.vallipuramavetta.com/Documents/git/ReactiveMongo/]" external.linked.project.path="$MODULE_DIR$/../../shaded" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../shaded/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../../shaded/target/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../shaded">
+      <excludeFolder url="file://$MODULE_DIR$/../../shaded/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="scala-sdk-2.12.10" type="Scala">
+        <properties>
+          <compiler-classpath>
+            <root url="file://$USER_HOME$/.sbt/boot/scala-2.12.10/lib/scala-library.jar" />
+            <root url="file://$USER_HOME$/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar" />
+            <root url="file://$USER_HOME$/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar" />
+            <root url="file://$USER_HOME$/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12-1.0.6.jar" />
+          </compiler-classpath>
+        </properties>
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: io.netty:netty-buffer:4.1.42.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-codec:4.1.42.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-common:4.1.42.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-handler:4.1.42.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-resolver:4.1.42.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-transport:4.1.42.Final:jar" level="project" />
+    <orderEntry type="module-library">
+      <library name="sbt: unmanaged-sources-and-docs">
+        <CLASSES />
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.42.Final/netty-transport-native-epoll-4.1.42.Final-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.42.Final/netty-transport-native-kqueue-4.1.42.Final-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.42.Final/netty-transport-native-epoll-4.1.42.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.42.Final/netty-transport-native-kqueue-4.1.42.Final-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

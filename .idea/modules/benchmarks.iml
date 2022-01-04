@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="benchmarks [file:/Users/pirasath.vallipuramavetta.com/Documents/git/ReactiveMongo/]" external.linked.project.path="$MODULE_DIR$/../../benchmarks" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../benchmarks/target/scala-2.13/classes" />
+    <output-test url="file://$MODULE_DIR$/../../benchmarks/target/scala-2.13/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../benchmarks">
+      <sourceFolder url="file://$MODULE_DIR$/../../benchmarks/src/main/scala" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../benchmarks/target/shaded/streams" />
+      <excludeFolder url="file://$MODULE_DIR$/../../benchmarks/target/shaded/scala-2.12" />
+      <excludeFolder url="file://$MODULE_DIR$/../../benchmarks/target/shaded" />
+      <excludeFolder url="file://$MODULE_DIR$/../../benchmarks/target/streams" />
+      <excludeFolder url="file://$MODULE_DIR$/../../benchmarks/target/scala-2.12" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="ReactiveMongo-BSON" exported="" />
+    <orderEntry type="library" scope="PROVIDED" name="sbt: com.github.ghik:silencer-lib_2.13:1.4.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: net.sf.jopt-simple:jopt-simple:4.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.commons:commons-math3:3.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjdk.jmh:jmh-core:1.21:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjdk.jmh:jmh-generator-asm:1.21:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjdk.jmh:jmh-generator-bytecode:1.21:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjdk.jmh:jmh-generator-reflection:1.21:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.ow2.asm:asm:5.0.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-parser-combinators_2.13:1.1.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-xml_2.13:1.2.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.13.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-sbt:test-interface:1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalacheck:scalacheck_2.13:1.14.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalactic:scalactic_2.13:3.1.0-SNAP13:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest_2.13:3.1.0-SNAP13:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatestplus:scalatestplus-scalacheck_2.13:1.0.0-SNAP8:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.specs2:specs2-common_2.13:4.5.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.specs2:specs2-core_2.13:4.5.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.specs2:specs2-fp_2.13:4.5.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.specs2:specs2-matcher_2.13:4.5.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.specs2:specs2-scalacheck_2.13:4.5.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:algebra_2.13:2.0.0-M2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_2.13:2.0.0-M4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:discipline-core_2.13:0.12.0-M3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:discipline-scalatest_2.13:0.12.0-M3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:discipline-specs2_2.13:0.12.0-M3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:machinist_2.13:0.6.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:spire-data_2.13:0.17.0-M1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:spire-extras_2.13:0.17.0-M1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:spire-laws_2.13:0.17.0-M1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:spire-macros_2.13:0.17.0-M1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:spire-platform_2.13:0.17.0-M1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:spire-util_2.13:0.17.0-M1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:spire_2.13:0.17.0-M1:jar" level="project" />
+    <orderEntry type="library" name="sbt: pl.project13.scala:sbt-jmh-extras:0.3.7:jar" level="project" />
+    <orderEntry type="module-library">
+      <library name="sbt: unmanaged-jars">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../shaded/target/ReactiveMongo-Shaded-assembly-0.18.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sbt: unmanaged-sources-and-docs">
+        <CLASSES />
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.42.Final/netty-transport-native-epoll-4.1.42.Final-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.42.Final/netty-transport-native-kqueue-4.1.42.Final-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.42.Final/netty-transport-native-epoll-4.1.42.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.42.Final/netty-transport-native-kqueue-4.1.42.Final-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

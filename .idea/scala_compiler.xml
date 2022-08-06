@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="reactivemongo_4950" />
+    <profile name="sbt 2" modules="ReactiveMongo,ReactiveMongo-Core,ReactiveMongo-Root,ReactiveMongo-Test">
+      <option name="higherKinds" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xlint" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xmax-classfile-name" />
+        <parameter value="128" />
+        <parameter value="-Ywarn-macros:after" />
+        <parameter value="-Ywarn-infer-any" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ywarn-unused-import" />
+        <parameter value="-Xlint:missing-interpolator" />
+        <parameter value="-P:silencer:globalFilters=MongoDB\ 3\.0\ EOL\ reached\ by\ Feb\ 2018;Either\ is\ now\ right-biased" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/silencer-plugin_2.12.15/1.7.7/silencer-plugin_2.12.15-1.7.7.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 3" modules="benchmarks">
+      <option name="higherKinds" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xlint" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xlint" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xmax-classfile-name" />
+        <parameter value="128" />
+        <parameter value="-Ywarn-macros:after" />
+        <parameter value="-Ywarn-infer-any" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ywarn-unused-import" />
+        <parameter value="-Xlint:missing-interpolator" />
+        <parameter value="-P:silencer:globalFilters=MongoDB\ 3\.0\ EOL\ reached\ by\ Feb\ 2018;Either\ is\ now\ right-biased" />
+        <parameter value="-Xmax-classfile-name" />
+        <parameter value="128" />
+        <parameter value="-Ywarn-macros:after" />
+        <parameter value="-Ywarn-infer-any" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ywarn-unused-import" />
+        <parameter value="-Xlint:missing-interpolator" />
+        <parameter value="-P:silencer:globalFilters=MongoDB\ 3\.0\ EOL\ reached\ by\ Feb\ 2018;Either\ is\ now\ right-biased" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ghik/silencer-plugin_2.12.15/1.7.7/silencer-plugin_2.12.15-1.7.7.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="ReactiveMongo-Core [file:/Users/pirasath.vallipuramavetta.com/Documents/git/ReactiveMongo/]" external.linked.project.path="$MODULE_DIR$/../../core" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../core/target/shaded/scala-2.12/classes" />
+    <output-test url="file://$MODULE_DIR$/../../core/target/shaded/scala-2.12/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../core">
+      <sourceFolder url="file://$MODULE_DIR$/../../core/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../core/src/test/scala" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../core/target/shaded" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="sbt: com.github.ghik:silencer-lib_2.12.15:1.7.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.luben:zstd-jni:1.5.0-5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.reactivemongo:reactivemongo-bson-api_2.12:1.0.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.reactivemongo:reactivemongo-shaded:1.0.10:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang.modules:scala-xml_2.12:1.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.12.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-sbt:test-interface:1.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.specs2:specs2-common_2.12:4.5.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.specs2:specs2-core_2.12:4.5.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.specs2:specs2-fp_2.12:4.5.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.specs2:specs2-matcher_2.12:4.5.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.xerial.snappy:snappy-java:1.1.8.4:jar" level="project" />
+  </component>
+</module>
